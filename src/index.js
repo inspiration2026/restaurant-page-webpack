@@ -2,7 +2,7 @@
 import "./styles.css";
 import {main} from "./webpage.js";
 import {menu} from "./menu.js";
-import {about} from "./about.js";
+import {contacts} from "./about.js";
 
 main();
 
@@ -23,6 +23,6 @@ navMenu.addEventListener ("click", () => {
 })
 navAbout.addEventListener ("click", () => {
     content.replaceChildren();
-    about();
+    contacts();
 })
 

@@ -49,6 +49,19 @@ nav>ul>li>button {
   display: flex;
   justify-content: center;               
 }
+.heroContacts {
+  height: 80vh;  
+  width: 100%;
+  background-image: url("./images/contact.jpg");
+  background-size: cover;    
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;         
+  color: white;     
+  display: flex;
+  justify-content: center;               
+}
 .main_info {
   width: 500px;
   height: 300px;
@@ -111,7 +124,7 @@ nav>ul>li>button {
 .card {
   border-radius: 15px;
   padding: 10px;
-  background-color: rgb(74, 74, 74);;
+  background-color: rgb(74, 74, 74);
 }
 .card_head {
   font-weight: 700;
@@ -123,4 +136,55 @@ nav>ul>li>button {
 }
 .card_body {
   padding: 0 10px 0 20px;
+}
+
+
+.container_menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--backColor);
+}
+.menu_frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(74, 74, 74);
+  border-radius: 15px/12px;
+  margin: 30px;
+  width: 800px;
+}
+.title_menu {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+.block_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.block, h1 {
+ padding: 10px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.contacts {
+  font-size: 80px;
+  font-weight: 900;
+  color: var(--colorButtonsHover);
+  text-shadow: 1px 1px 2px white;
+  margin-bottom: 30px;
+}
+.contInfo {
+  margin: 0;
+  font-size: 22px;
+  padding: 5px;
+  color: var(--color);
+}
+.main_info > p:last-child {
+  border-bottom: 1px solid var(--colorButtonsHover);
 }

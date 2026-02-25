@@ -1,4 +1,3 @@
-// export const webpage = main();
 
 export function main() {
     console.log("It's working")
